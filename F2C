@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class F2C {
+    
+    public static final void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input a temperature in Farenheit:");        
+        int fahrenheit = scanner.nextInt();
+        
+        int celsius = (fahrenheit - 32) * 5 / 9;
+        
+        System.out.println(fahrenheit + " degrees Farenheit is equal to " + celsius + " degrees Celsius.");
+        
+    }
+    
+}
